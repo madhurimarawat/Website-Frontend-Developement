@@ -45,3 +45,13 @@ This repository contains programs in HTML, CSS, JavaScript and Bootstrap related
 --> Bootstrap also comes with several JavaScript components which do not require other libraries like jQuery.<br><br>
 --> They provide additional user interface elements such as dialog boxes, tooltips, progress bars, navigation drop-downs, and carousels.<br><br>
 --> Each Bootstrap component consists of an HTML structure, CSS declarations, and in some cases accompanying JavaScript code.<br> 
+
+---
+# Mode of Execution Used  <img src="https://th.bing.com/th?id=OSAAS.67CE744F3AF9AB3181DA21630627453B&w=80&h=80&o=6&dpr=2&pid=5.1" title="Notepad++" alt="Notepad++" width="40" height="40">  &nbsp;
+<h2>Notepad++</h2>
+ --> To begin, visit the official website &nbsp; <a href="https://notepad-plus-plus.org/downloads/"><img src="https://th.bing.com/th?id=OSAAS.67CE744F3AF9AB3181DA21630627453B&w=80&h=80&o=6&dpr=2&pid=5.1" title="Notepad++" alt="Notepad++" width="40" height="40"> </a>   <br><br>
+--> Download according to the platform being used like Linux, MacOs or Windows.<br><br>
+--> Follow the setup wizard.<br><br>
+--> After setup, we can write code in HTML and also in other languages.<br><br>
+--> To see the output of HTML code open document in any browser.<br>
+
