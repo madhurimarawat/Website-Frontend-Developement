@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>While Loop In Java script</title>
+
+<script>
+<!---ARMSTRONG NUMBER IS A NUMBER WHOSE NUMBER DIGIT CUBE SUM RESULT IS THE NUMBER ITSELF--->
+     
+	 /*  WAP to find Number is armstrong Or Not using Javascript Function 
+	      
+		   Enter a Number = 153
+	 
+	 */
+	 
+	 var no = parseInt(window.prompt("Enter a Number to Find Armstrong or Not= "));  
+	 
+	 temp= no;
+	 sum = 0;
+	 
+	 while(no != 0)    // Condition Upto (End Point)
+	 {
+	     
+		 r = no % 10;
+		 sum = sum +(r*r*r);
+		 no = parseInt(no/10);
+	 }
+	 
+	 document.writeln("Value of Sum is: " +sum);
+	 
+	 if(temp == sum)
+	 {
+	     	document.write(+temp," IS ARMSTRONG NUMBER.");
+	 }
+	else
+	 {
+	     	 document.write(+temp," IS NOT ARMSTRONG NUMBER.");
+
+	 }
+	
+</script>
+
+</head>
+<body>
+<h1 style= "color:cyan">ARMSTRONG NUMBER IN JAVASCRIPT</H1>
+</body>
+</html>

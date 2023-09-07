@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>PRIME  NUMBER </title>
+<script>
+/*PRIME NUMBER IS A NUMBER WHICH IS THE NUMBER DIVISIBLR BY 1 OR ITSELF 
+ WAP to find Number is palindrome or not Or Not using Javascript Function */
+var a=parseInt(window.prompt("ENTER NUMBER: "));
+var p=0;
+var i;
+if(a==0||a==1){
+p=1;
+}
+if(a==2){
+p=0;
+}
+for(i=2;i<=(a/2);i++)
+{
+if(a%i==0){
+p=1;
+break;
+}
+}
+if(p==0){
+document.write(+a," IS PRIME NUMBER.");
+}
+else{
+document.write(+a," IS NOT PRIME NUMBER.");
+}
+</script>
+</head>
+<body>
+<h1 style= "color:yellow">PRIME NUMBER IN JAVASCRIPT</H1>
+</body>
+</html>

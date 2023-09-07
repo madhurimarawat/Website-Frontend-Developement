@@ -1,0 +1,27 @@
+<!---JS VARIABLE DECLARATION
+FOUR WAYS:
+ 1)using var:It's used for variable declaration and you can change  values of variables
+ 2)using let:It's used for variable declaration and you can not change  values of variables
+ 3)using const:It's used for variable declaration and you can not change  values of variables
+ 4)using nothing:It's used for variable declaration and you can  change  values of variables
+ -->
+<html>
+<head>
+<title >2) JAVASCRIPT VARIABLES USING VAR AND ID</title>
+<script>
+function addition(){
+var a,b,c;
+a=10;
+b=20;
+//REDECLARATION POSSIBLE A IS NOW 34
+a=34;
+c=a+b;
+document.getElementById("demo").innerHTML=c;
+}
+</script>
+</head>
+<body>
+<h1 id="demo" STYLE="COLOR:CYAN"> ADDITION USING FUNCTIONS</h1>
+<button type="button" onclick="addition()" > click to add</button>
+</body>
+</html>
